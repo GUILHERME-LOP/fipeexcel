@@ -26,3 +26,5 @@ RNF:003 - O usuário deve ter instalado em seu computador o Python na versão 3.
 # Regra de negocio
 
 Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser feita pelo códico oficial do veículo,todo veículo possui um códico ,gerenciado pela orgaização que cuida de FIPE.Requesito Funcional - 001.
+
+# 
