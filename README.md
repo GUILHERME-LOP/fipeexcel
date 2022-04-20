@@ -14,7 +14,7 @@ RF:002: - O Sistema deve Gravar os dados retornados em um arquivo Excel, os dado
 
 
 
-# Requisitos Não Funcionais 
+# Requisitos não Funcionais 
 
 RNF:001 - O Sistema deve salvar o arquivo em XLSX versão 2007 ou superior
 
@@ -23,7 +23,7 @@ RNF:002 - O Sistema deve ter acesso a internet
 RNF:003 - O usuário deve ter instalado em seu computador o Python na versão 3.7 ou superior.
 
 
-# Regra de negocio
+# Regra de negócio
 
 Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser feita pelo códico oficial do veículo,todo veículo possui um códico ,gerenciado pela orgaização que cuida de FIPE.Requesito Funcional - 001. 
 
