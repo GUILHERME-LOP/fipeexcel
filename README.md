@@ -34,14 +34,14 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 
 
 
-<h3> Gerar execel com caso de uso:</h3>
+<h3>Enviar tabela por e-mail:</h3>
 • O usuário deve acessar a opção de envio da planilhar gerada por email.O usuário insere o email desejado e clica no botão selicionar para buscar o relatório em excel.Ele então seleciona o relatorio e clica na opção enviar. O sistema emite um alerta dizendo que o email com o relatório foi enviado com sucesso
 
-<h3>Enviar tabela por e-mail:</h3>
-• A planilha gerada será enviada automaticamente via e-mail para o solicitante
+<h3>Gerar planilha excel baseada na tabela</h3>
+• O usuario acessa o sistema e seleciona uma caixa de seleçao o tipo de veiculo que ele ta buscando (caminhão ,carro ou moto),deve informar tambem o ano inicia da busca e o ano final da busca.Apos o usuario clica no botão Gerar Planilha e o sistema começa a busca baseado nos parametros informados (Caso de Uso:Consultar FIPE). Após gerar o relatorio o sistema deve emitir um alerta dizendo que a atividade foi comcluida com sucesso .No arquivo excel deve ser exibidos os seguintes dados: Código FIPE do veiculo,nome do veiculo,valor ,ano e tipo de combustivel.
 
 <h3>Consultar FIPE:</h3>
-• O sistema irá busca diretamente na api da tabela FIPE diretamente do site do GOV.BR  
+• O sistema deve realizar uma busca atravez de uma api web que tras dados oficiais de tabela fipe que sao os veiculos de acordo com os parametros selecionados.Esses dados irão para a planilha excel
 
 
 
