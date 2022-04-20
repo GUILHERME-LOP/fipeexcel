@@ -31,3 +31,31 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 # Caso de uso
 
 ![uc 1 2](https://user-images.githubusercontent.com/82292857/164120338-83203d17-27c9-49e7-a710-50c4ed0953d2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
