@@ -34,7 +34,14 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 
 
 
+# Gerar execel com caso de uso:
+Ele vai coletar os dados (preço,ano,códico fipe,mês de referencia ) da tabela e salvar diretamente no excel
 
+# Enviar a tabela por email:
+Ele vai colar a tabela ja salva e enviar atrasvez do e-mail da empresa para o cliente
+
+# Consultar fipe:
+O sistema ira busca diretamente na api da tabela FIPE diretamente do site do GOV.BR  
 
 
 
