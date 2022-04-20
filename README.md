@@ -35,7 +35,7 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 
 
 <h3> Gerar execel com caso de uso:</h3>
-• Ele vai coletar os dados (preço,ano,códico fipe,mês de referência ) da tabela e salvar diretamente no excel
+• O usuário deve acessar a opção de envio da planilhar gerada por email.O usuário insere o email desejado e clica no botão selicionar para buscar o relatório em excel.Ele então seleciona o relatorio e clica na opção enviar. O sistema emite um alerta dizendo que o email com o relatório foi enviado com sucesso
 
 <h3>Enviar tabela por e-mail:</h3>
 • A planilha gerada será enviada automaticamente via e-mail para o solicitante
