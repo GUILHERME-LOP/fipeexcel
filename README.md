@@ -48,11 +48,12 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 
 
 
+# diagrama de classe
 
 
 
 
-
+![Untitled (3)](https://user-images.githubusercontent.com/82292857/165190758-08cc0055-a3d8-41c6-849d-9b5711f8aae3.png)
 
 
 
