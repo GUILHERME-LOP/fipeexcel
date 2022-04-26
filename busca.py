@@ -36,7 +36,7 @@ dados_modelo=requests.get(url='http://parallelum.com.br/fipe/api/v2/motorcycles/
 
 lista_modelo= json.loads(dados_modelo.content)
 linha=1
-'''
+
 planilha_excel_motos.write(0,0,'MARCA')
 planilha_excel_motos.write(0,1,'CÓDICO')
 
@@ -45,7 +45,6 @@ for modelo in lista_modelo:
     planilha_excel_motos.write(linha,0,modelo.get('name'))
     planilha_excel_motos.write(linha,1,modelo.get('code'))
     linha+=1
-'''
 
 
 
