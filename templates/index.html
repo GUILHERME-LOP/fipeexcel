@@ -5,14 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Consulte sua tabela FIPE</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/styles.css">
+        
     </head>
     <body>
         <h2>Pesquisa FIPE</h2>
-        <form >
+        <form name="pesquisa" method="POST" action="/" >
 
             <label>Tipo de veiculo</label>
             <br> 
-                <select name="tipo">
+                <select name="tipo" onchange="busca_marca()">
+                    <option >Categoria</option>
                     <option value="cars">Carro</option>
                     <option value="trucks">Caminhao</option>
                     <option value="motorcycles">Moto</option>
@@ -23,10 +27,10 @@
 
             <label>Marca do veiculo</label>
             <br>  
-                <select>
+                <select name="id_marca">
                     <option>Seleciona a marca</option>
                     {% for item in lista_marca      %}
-                    <option>{{item.get('name')}}</option>
+                    <option value="{{item.get('code')}}">{{item.get('name')}}</option>
                     {% endfor      %}
                 </select>
 
@@ -48,6 +52,6 @@
 
 
         </form>
-        
+    <script src="/static/script.js"></script>  
     </body>
 </html>
