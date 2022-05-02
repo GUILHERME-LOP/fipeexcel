@@ -58,6 +58,7 @@ Regra de negocio: 001 - Consulta a tabela FIPE.A consulta a tabla FIPE deve ser 
 
 
 
+[USUARIO.pdf](https://github.com/GUILHERME-LOP/fipeexcel/files/8606597/USUARIO.pdf)
 
 
 
